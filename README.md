@@ -1,4 +1,4 @@
-# Who Logged
+# Character Tools
 
 This is a module for [AzerothCore](http://www.azerothcore.org)
 
