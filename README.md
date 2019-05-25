@@ -19,7 +19,7 @@ AzerothCore v1.0.1+
 
 ###1) Simply place the module under the `modules` folder of your AzerothCore source folder.
 
-###2) Input the SQL file to the character database. (if any)
+###2) Input the SQL file to the world database. 
 
 ###3) Re-run cmake and launch a clean build of AzerothCore
 
