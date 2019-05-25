@@ -32,7 +32,7 @@ public:
         return false; // If item has spell cast it normal.
     }
 
-    void OnGossipSelect(Player* player, Item* item, uint32 /*sender*/, uint32 action)
+    void OnGossipSelect(Player* player, Item* item, uint32 /*sender*/, uint32 action) override
     {
         player->PlayerTalkClass->ClearMenus();
         switch (action)
