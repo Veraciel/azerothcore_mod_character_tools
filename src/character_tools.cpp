@@ -6,6 +6,7 @@
 #include "ScriptMgr.h"
 #include "Spell.h"
 #include "Configuration/Config.h"
+#include "Chat.h"
 
 class character_tools : public ItemScript
 {
@@ -32,7 +33,7 @@ public:
         return false; // If item has spell cast it normal.
     }
 
-    void OnGossipSelect(Player* player, Item* item, uint32 /*sender*/, uint32 action)
+    void OnGossipSelect(Player* player, Item* /*item*/, uint32 /*sender*/, uint32 action) override
     {
         player->PlayerTalkClass->ClearMenus();
         switch (action)
