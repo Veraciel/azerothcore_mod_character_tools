@@ -5,7 +5,7 @@
 #include "ScriptedGossip.h"
 #include "ScriptMgr.h"
 #include "Spell.h"
-#include "Configuration/Config.h
+#include "Configuration/Config.h"
 #include "Chat.h"
 
 class character_tools : public ItemScript
