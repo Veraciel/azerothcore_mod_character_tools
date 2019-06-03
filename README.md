@@ -1,3 +1,5 @@
+# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
+- Latest build status with azerothcore: [![Build Status](https://travis-ci.org/azerothcore/mod-character-tools.svg?branch=master)](https://travis-ci.org/azerothcore/mod-character-tools)
 # Character Tools
 
 This is a module for [AzerothCore](http://www.azerothcore.org)
