@@ -1,2 +1,2 @@
--- Adding script to the Item 6948 ( Hearthstone )
-UPDATE `item_template` SET `ScriptName`='character_tools' WHERE `entry`=6948;
+-- Create a new item
+INSERT INTO `item_template` VALUES (90002, 0, 0, 0, 'Level Token', 46787, 6, 0, 0, 1, 0, 0, 0, -1, -1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000, 0, 0, 18282, 0, 0, 0, 8000, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, '|cff00FF00Use: Level Up|r', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 'character_tools', 0, 0, 0, 0, 0, -4); 
