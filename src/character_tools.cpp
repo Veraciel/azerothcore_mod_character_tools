@@ -59,26 +59,7 @@ public:
 
 };
 
-class character_tools_world : public WorldScript
-{
-public:
-    character_tools_world() : WorldScript("character_tools_world") { }
-
-    void OnBeforeConfigLoad(bool reload) override
-    {
-        if (!reload) {
-            std::string cfg_file = "character_tools.conf";
-            std::string cfg_def_file = cfg_file + ".dist";
-
-            sConfigMgr->LoadMore(cfg_def_file.c_str());
-
-            sConfigMgr->LoadMore(cfg_file.c_str());
-        }
-    }
-};
-
 void AddCharacterToolsScripts()
 {
     new character_tools();
-    new character_tools_world();
 }
